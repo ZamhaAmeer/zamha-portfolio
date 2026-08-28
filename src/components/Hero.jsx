@@ -90,13 +90,13 @@ const Hero = () => {
             {/* Offset glass layer for depth */}
             <div style={{ 
               position: 'absolute', 
-              width: '310px', 
-              height: '430px', 
+              width: '240px', 
+              height: '240px', 
               border: '1px solid rgba(255, 255, 255, 0.04)', 
               background: 'rgba(255, 255, 255, 0.005)', 
-              borderRadius: '24px', 
+              borderRadius: '50%', 
               backdropFilter: 'blur(4px)', 
-              transform: 'rotate(-3deg) translate(-8px, -4px)', 
+              transform: 'translate(-8px, 8px)', 
               zIndex: -1, 
               pointerEvents: 'none',
               boxShadow: '0 10px 30px rgba(0,0,0,0.1)'
@@ -104,12 +104,12 @@ const Hero = () => {
             
             {/* Main glass frame image holder */}
             <div className="glass-card" style={{ 
-              width: '310px', 
-              height: '430px', 
-              padding: '12px', 
+              width: '240px', 
+              height: '240px', 
+              padding: '8px', 
               border: '1px solid rgba(255, 255, 255, 0.06)', 
               boxShadow: '0 20px 45px rgba(0,0,0,0.4)',
-              borderRadius: '24px',
+              borderRadius: '50%',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -125,7 +125,7 @@ const Hero = () => {
                   height: '100%', 
                   objectFit: 'cover', 
                   objectPosition: 'center 20%',
-                  borderRadius: '16px',
+                  borderRadius: '50%',
                   pointerEvents: 'none' // Let hover go through to card for 3D tilt
                 }} 
               />

@@ -38,11 +38,11 @@ function App() {
         {/* Modern Projects Showcase Section */}
         <Projects />
 
-        {/* Design Experience Section */}
-        <DesignExperience />
-
         {/* Education & Credentials */}
         <Experience />
+
+        {/* Design Experience Section */}
+        <DesignExperience />
 
         {/* Language Profile */}
         <LanguageProfile />
